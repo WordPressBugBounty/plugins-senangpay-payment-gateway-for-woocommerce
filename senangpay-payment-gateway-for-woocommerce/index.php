@@ -4,7 +4,7 @@
  * Plugin Name: senangPay
  * Plugin URI: http://senangpay.my
  * Description: Enable online payments using credit or debit cards and online banking. Currently, senangPay service is only available to businesses that reside in Malaysia.
- * Version: 3.3.5
+ * Version: 3.3.6
  * Author: senangPay
  * Author URI: http://senangpay.my
  * WC requires at least: 4.3

@@ -3,7 +3,7 @@ Contributors: senangpay
 Tags: payment gateway, Malaysia, online banking
 Requires at least: 4.3
 Tested up to: 6.6
-Stable tag: 3.3.5
+Stable tag: 3.3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	
@@ -46,6 +46,9 @@ Currently senangPay only support Malaysian Ringgit (RM).
 Please open a ticket by log in to senangPay Dashboard and look for menu support.
 	
 == Changelog ==
+
+= 3.3.6 =
+* Bug Fixes: Logo shrink at checkout page
 
 = 3.3.5 =
 * Bug Fixes: Change UI payment icons

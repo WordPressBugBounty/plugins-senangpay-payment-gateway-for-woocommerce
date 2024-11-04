@@ -69,9 +69,17 @@ jQuery(document).ready(function($) {
 });
 
 jQuery(document).ready(function($) {
-    $('.woocommerce-checkout img').css({
-        'max-height': '25px',
-        'width': 'auto'
+    function applyStyles() {
+        $('.woocommerce-checkout-payment img').css({
+            'max-height': '25px',
+            'width': 'auto'
+        });
+    }
+
+    // Reapply styles after WooCommerce AJAX events
+    $(document.body).on('updated_checkout', function() {
+        applyStyles();
     });
+
 });
 
